@@ -1,0 +1,80 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+body{
+	background-color: #fff
+}
+.main{
+	background-color: #5D00AC;
+	display: flex;
+	width: 95%;
+	padding: 50px;
+	max-width: 1000px;
+	margin: auto;
+	flex-wrap: wrap;
+	box-shadow: 0 0 10px 1 px rgba(0, 0, 0, 0.3);
+}
+h1 {
+	text-align: center;
+	width: 100%;
+	font-size: 40px;
+	margin-bottom: 40px;
+}
+.photo{
+	max-height: 265px;
+	max-width: 490px;
+	width: calc(50% - 10px);
+	height: calc(95vw / 2 / 16 * 9);
+	background-color: #00FFA8;
+	margin: 5px;
+	background-position: center;
+	background-size: cover;
+	transition: all 0.5s easy;
+	box-shadow: 0 0 10px 1 px rgba(0, 0, 0, 0.2);
+}
+.photo:hover {
+	transform: rotate(3deg) scale(1.07);
+	box-shadow: 0 0 20px 1 px rgba(0, 0, 0, 0.4);
+}
+
+
+.photo:nth-child(2){
+	background-image: url(r.jpg);
+}
+.photo:nth-child(3){
+	background-image: url(w.jpg);
+}
+.photo:nth-child(4){
+	background-image: url(e.jpeg);
+}
+.photo:nth-child(5){
+	background-image: url(t.jpg);
+}
+.photo:nth-child(6){
+	background-image: url(i.jpg);
+}
+.photo:nth-child(7){
+	background-image: url(y.jpg);
+}
+.photo:nth-child(8){
+	background-image: url(u.jpeg);
+}
+.photo:nth-child(9){
+	background-image: url(a.jpg);
+}
+.photo:nth-child(10){
+	background-image: url(o.jpg);
+}
+.photo:nth-child(11){
+	background-image: url(s.jpg);
+}
+.photo:nth-child(12){
+	background-image: url(p.jpg);
+}
+.photo:nth-child(13){
+	background-image: url(q.jpg);
+}
